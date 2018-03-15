@@ -8,6 +8,6 @@ function findItemsOver(itemlist,threshold){
        higherThreshold.push(temp);
       }
  }
-  console.log(higherThreshold);
-  return higherThreshold;
+
+  return higherThreshold.length;
 }
